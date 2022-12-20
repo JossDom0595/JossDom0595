@@ -1,0 +1,80 @@
+#body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+#a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+#a:hover {
+  color: #5faee3;
+  text-decoration: none;
+}
+
+
+#h1,
+#h2,
+#h3,
+#h4,
+#h5,
+#h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+div.cabecera {
+  background-image: url("img/fondo-cabecera.jpg");
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-size: cover;
+  padding: 2rem 0.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+.textbox1{
+	
+	  
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  background-size: cover;
+  padding: 1rem 0rem;
+  text-align: center;
+
+}
+
+#turismo {
+	
+    position: absolute;
+    left: 60%;
+	
+}
+
+#bandera {
+ opacity:0.4;
+ filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#bandera:hover {
+ opacity:1.0;
+ filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#tri {
+	
+	position:absolute;
+	top: 155%;
+	left: 55%;
+}
+
+
