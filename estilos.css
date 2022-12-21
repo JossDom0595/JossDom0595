@@ -23,14 +23,14 @@
   font-family: "Raleway", sans-serif;
 }
 
-div.cabecera {
-  background-image: url("img/fondo-cabecera.jpg");
+div.cabecera{
+  background-image: url("img/surf2.png");
   margin:0;
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 50vh;
+  justify-content: left;
+  height: 60vh;
   background-size: cover;
   padding: 2rem 0.5rem;
   text-align: center;
@@ -73,8 +73,73 @@ div.cabecera {
 #tri {
 	
 	position:absolute;
-	top: 155%;
-	left: 55%;
+	top: 200%;
+	left: 68%;
+}
+
+div.cabecera2 {
+  background-image: url("img/fondo-cabecera.jpg");
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-size: cover;
+  padding: 2rem 0.5rem;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+#sur {
+	
+	position: absolute;
+	left: 73%;
+	top: 1%;
+}
+
+#titulo3 {
+		
+	text-align: center;
+	
+}
+
+.cabecera3{
+  background-image: url("img/decameron.jpg");
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 60vh;
+  background-size: cover;
+  padding: 2rem 0.5rem;
+  text-align: center;
+  
+  font-size: 40px;
 }
 
 
+#zoom {
+    transition: transform .2s; 
+}
+ 
+#zoom:hover {
+    transform: scale(1.1); 
+}
+
+.cabecera4{
+  background-image: url("img/pital.jpg");
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 60vh;
+ 	width: 200%;
+  padding: 2rem 0.5rem;
+  text-align: center;
+  
+  font-size: 40px;
+}
